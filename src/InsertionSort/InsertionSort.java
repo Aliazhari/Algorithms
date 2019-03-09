@@ -2,6 +2,10 @@ package InsertionSort;
 
 import java.util.Arrays;
 
+/**
+ * @author Ali Azhari
+ *
+ */
 public class InsertionSort {
 
 	public static void InsertionSort(char[] data) {
