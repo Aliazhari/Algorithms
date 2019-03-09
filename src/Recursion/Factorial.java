@@ -8,7 +8,7 @@ public class Factorial {
 
 	public static int Fact(int n) throws IllegalArgumentException {
 		
-		// Running time of factorial: O(n)
+		// Running time of factorial: O(n) 
 		
 		if (n < 0) throw new IllegalArgumentException();
 		
