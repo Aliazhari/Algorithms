@@ -1,6 +1,12 @@
 package BinarySearch;
 
+/**
+ * @author Ali Azhari
+ *
+ */
 public class BinarySearch {
+	
+	// the total running time is O(log n)
 
 	public static boolean BS(int[] data, int target, int low, int high) {
 
