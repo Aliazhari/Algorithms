@@ -7,6 +7,7 @@ import java.util.Arrays;
  *
  */
 public class InsertionSort {
+	
 
 	public static void InsertionSort(char[] data) {
 		
