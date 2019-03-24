@@ -5,7 +5,7 @@ package BinarySearch;
  *
  */
 public class BinarySearch {
-	
+
 	// the total running time is O(log n)
 
 	public static boolean BS(int[] data, int target, int low, int high) {
@@ -26,6 +26,7 @@ public class BinarySearch {
 					return BS(data, target, low, mid - 1);
 			}
 		}
+	
 	}
 
 	public static void main(String[] args) {
