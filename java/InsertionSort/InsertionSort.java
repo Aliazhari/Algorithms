@@ -12,6 +12,7 @@ public class InsertionSort {
 	public static void InsertionSort(char[] data) {
 		
 		// running time: O(n2)
+		
 		int length = data.length;
 		if (length < 2) return;
 		for (int i = 1; i < length; i++) {
