@@ -1,4 +1,4 @@
-package binarysearch;
+package java.algorithms.BinarySearch;
 
 /**
  * @author Ali Azhari
@@ -8,7 +8,7 @@ public class BinarySearch {
 
 	// the total running time is O(log n)
 
-	public static boolean BS(int[] data, int target, int low, int high) {
+	public  boolean BS(int[] data, int target, int low, int high) {
 
 		if (low > high)
 			return false; // Not found
@@ -25,13 +25,6 @@ public class BinarySearch {
 
 	}
 
-	public static void main(String[] args) {
 
-		int data[] = { 1, 3, 5, 7, 9, 13 };
-
-		for (int i = 0; i < 15; i++)
-			System.out.println(i + " is " + (BS(data, i, 0, 5) == true ? "found" : "not found"));
-
-	}
 
 }
